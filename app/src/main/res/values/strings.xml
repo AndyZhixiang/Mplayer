@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Mplayer</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="delete_dialog_title">DELETE MUSIC</string>
+    <string name="delete_dialog_text">Confirm to delete this song?</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="research">Research</string>
 </resources>
