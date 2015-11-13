@@ -18,7 +18,7 @@ import com.example.sunandy.mplayer.dummy.DummyContent;
  * Activities containing this fragment MUST implement the {@link Callbacks}
  * interface.
  */
-public class MusicListFragment extends ListFragment {
+public class MusicListFragment extends ListFragment onCli{
 
     /**
      * The serialization (saved instance state) Bundle key representing the
@@ -73,7 +73,7 @@ public class MusicListFragment extends ListFragment {
         // TODO: replace with a real list adapter.
         setListAdapter(new ArrayAdapter<DummyContent.DummyItem>(
                 getActivity(),
-                android.R.layout.simple_list_item_activated_1,
+                android.R.layout.music_list_item,
                 android.R.id.text1,
                 DummyContent.ITEMS));
     }
